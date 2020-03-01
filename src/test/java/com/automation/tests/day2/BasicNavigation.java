@@ -25,7 +25,7 @@ public class BasicNavigation {
         if(expectedTitle.equals(title)){
             System.out.println("Test Passed");
         }else{
-            System.out.println("Test Failed");
+            System.out.println("Test Failed!");
         }
 
         driver.close();
